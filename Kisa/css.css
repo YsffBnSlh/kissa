@@ -1,0 +1,312 @@
+/* body css */
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(14, 14, 14);
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    width: 9px;
+}
+  
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(110, 110, 110);
+    border-radius: 20px;
+    border: 3px solid transparent;
+}
+
+
+
+
+/* nav css */
+
+nav{
+    background-color: rgb(53, 53, 53);
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 2px 2px 5px grey;
+    z-index: 20;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(53, 53, 53);
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color:rgb(211, 209, 209);
+    text-align: center;
+    padding: 8.5px 40px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.dfdfdfdfggg) {
+    background-color: rgb(27, 27, 27);
+    border-style: solid;
+    border-color: #3d8591;
+    border-bottom-width: 2.5px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+
+ul.topnav li a.dfdfdfdfggg {
+    background-color: rgb(53, 53, 53);
+    margin-top: 15px;
+    cursor: default;
+}
+
+ul.topnav li.right {
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li a span.ptpt{color:#3d8591;}
+
+nav ul li a span.ptptp{color:rgb(211, 209, 209);}
+
+
+
+
+/* header css*/
+
+header{
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    background-color: rgb(211, 209, 209);
+    color: rgb(26, 26, 26);
+    width: 100%;
+    cursor: default;
+}
+
+h1.k{
+    text-align: left;
+    margin-left: 50px;
+}
+
+span.ez{
+    font-size: 100px;
+    color: #3d8591;
+}
+
+span.ze{font-size: 50px;}
+
+
+
+
+/* section 1 css */
+
+main{
+    padding-top: 0px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#azer{
+    background-color: rgb(211, 209, 209);
+    width: 100%;
+    z-index: 1;
+    cursor: default;
+}
+
+p.in{
+    font-size: 17px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: -15px;
+    color: rgb(14, 14, 14);
+    text-shadow: black;
+}
+
+#azer p.in main span.strrr{
+    font-size: 20px;
+    cursor: default;
+}
+
+
+
+
+/* section 2 css */
+
+#aa{
+    background-color: rgb(14, 14, 14);
+    color: rgb(211, 209, 209);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+#aa a div.assa{
+    height: 50px;
+    width: 239px;
+    background-color: rgb(26, 26, 26);
+    border-style: solid;
+    border-width: 2px;
+    border-color: #142c30;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0px;
+    display: inline-block;
+}
+
+#aa a{text-decoration: none;}
+
+#aa a div.assa p{
+    color: rgb(211, 209, 209);
+    text-align: center;
+}
+
+#aa a div.assa:hover{
+    background-color: rgb(20, 20, 20);
+    border-color: #12272b;
+    color: rgb(139, 138, 138);
+    -ms-transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01); 
+}
+
+#aa div.assaa{
+    height: 50px;
+    background-color: rgb(14, 14, 14);
+    display: block;
+    width: 100%;
+    bottom: 0;
+}
+
+#aa div.as{
+    display: inline-block;
+    height: 50px;
+    width: 239px;
+    color: rgb(211, 209, 209);
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 50px;
+    padding-top: 0px;
+    cursor: default;
+}
+
+
+
+
+/* footer css */
+
+footer{
+    height: 200px;
+    background-color: rgb(26, 26, 26);
+    bottom: 0;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+div.oi{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.pipi{margin-left: 5px;}
+
+.pipip{margin-right: 5px;}
+
+hr{
+    width: 200px;
+    border-color: rgb(139, 138, 138);
+}
+.ml{color: rgb(139, 138, 138);}
+
+.ml a{
+    text-decoration: none;
+    color: rgb(139, 138, 138);
+}
+
+.ml a:hover{text-decoration: underline;}
+
+.lk{
+    position: relative; bottom: 3px;
+    position: relative; left: 3px;
+    font-size: 40px;
+    color: rgb(66, 66, 66);
+    cursor: default;
+}
+
+footer p{
+    text-align: center;
+    position: relative; bottom: 20px;
+}
+
+p.mmmm{
+    color: rgb(48, 48, 48);
+    bottom: 0;
+    cursor: default;
+}
+
+
+
+
+/*phones*/
+
+@media screen and (max-width: 600px){
+
+    header{width: 100%;overflow: hidden;}
+
+    ul.topnav li.onee{position: relative; bottom: 3px;}
+
+    #azer{width: 100%;overflow: hidden;}
+
+    #aa{width: 100%;overflow: auto;}
+
+    footer{width: 100%;overflow: hidden;}
+
+    header h1.k{text-align: center;margin-right: 50px;}
+
+    #azer p.in{text-align: center;}
+
+    ul.topnav li.right{margin-right: 0px;}
+
+    ul.topnav li a{padding: 14px 13px;}
+
+    ul.topnav li a{font-size: 12px;}
+
+    p.mmmm{position: relative;bottom: 10px;}
+
+    span.ez{font-size: 50px;}
+
+    span.ze{font-size: 25px;}
+
+    #aa a div.assa{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #aa div.as{
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+    }
+
+}
+.hg{z-index: 1;}
